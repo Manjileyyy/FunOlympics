@@ -1,0 +1,56 @@
+.select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 300px;
+    gap: 1px;
+  }
+
+ 
+    
+  
+  .select__item {
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    background: #eeeeee;
+    transition: background 0.1s;
+  }
+  
+  .select__item--selected {
+    background: #009578;
+    color: #ffffff;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background: rgb(143, 142, 154);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+   }
+   .center{
+    width: 430px;
+    margin: 130px auto;
+    position: relative;
+   }
+   .center form{
+    position: absolute;
+    background: #a6a7a9;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #4b434c;
+    border-radius: 0 0 5px 5px;
+   }
+   .center .header{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 30px 25px;
+    background:#888b8f;
+    border-bottom: 1px solid #9cabca;
+    border-radius: 5px 5px 0 0;
+   }
+  

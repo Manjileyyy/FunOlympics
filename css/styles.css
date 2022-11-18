@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(137, 137, 174);
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+  }
+ 
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color:white;
+    
+  }
+  .content.log{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .menu-container {
+    flex: 6;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+    margin-right: 30px;
+  }
+  
+  .menu-list-item.active {
+    font-weight: bold;
+  }
+  .container.logo{
+    height: 50px;
+    width: 50px;
+
+  }
+  
+  .container {
+    background-color:rgb(255, 255, 255);
+    min-height: calc(100vh - 50px);
+    color: white;
+  }
+  
+  .content-container {
+    margin-left: 50px;
+  }
+  
+  
+  .game-list-container {
+    padding: 0 20px;
+  }
+  
+  .game-list-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .game-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+  }
+  
+  .game-list-item {
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .game-list-item:hover .game-list-item-img {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+  }
+  
+  .game-list-item:hover .game-list-item-title,
+  .game-list-item:hover .game-list-item-desc,
+  .game-list-item:hover .game-list-item-button {
+    opacity: 1;
+  }
+  
+  .game-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .game-list-item-title {
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  
+  .game-list-item-desc {
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 230px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  .btn{
+    background-color: #357960;
+    border-radius: 5px;
+   font-weight: bold;
+   color: white;
+    font-size: 20px;
+    padding: 5px 10px !important;
+  }
+  .game-list-item-button {
+    padding: 10px;
+    background-color: #8ba27b;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+  }
+  .profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .profile-text-container {
+    margin: 0 20px;
+    font-size: 12px;
+  }
+  
+  .profile-picture {
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    object-fit: cover;
+    padding-right: 10px;
+  }
+  .video{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 600;
+  
+  }
+  .arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .game-list-title{
+    font-size: 20px;
+  }
+  
+  
+/* {
+  margin: 0;
+  background-color: #333;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+position: sticky;
+  top: 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+  color: white;
+  font-family: "Sen", sans-serif;
+}
+
+.logo-container {
+  flex: 2;
+}
+
+.logo {
+  font-size: 30px;
+  color: #f1f2f0;
+}
+
+.menu-container {
+  flex: 6;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.menu-list-item {
+  margin-right: 30px;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
+}
+.video{
+    margin-top: -60;
+    margin-bottom: 50;
+    position: absolute;
+    height: 600;
+    width: 600;
+    padding-left: 40;
+    
+
+}
+
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}*/
+
+
+
+  
+  
