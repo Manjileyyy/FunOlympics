@@ -43,7 +43,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             <img src="images/ol.png" height="50" width="50" alt=""></a>
             <div class="menu-container">
                 <ul class="menu-list">
-                    <li class="menu-list-item active"><a href='./guest.php'>Home</a></li>
+                    <li class="menu-list-item active"><a href='./index.php'>Home</a></li>
                     <li class="menu-list-item"><a href='./game.php'>Games</a></li>
                     <li class="menu-list-item"><a href='./gallery1.php'>Gallery</a></li>
 
